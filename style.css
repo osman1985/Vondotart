@@ -4,41 +4,49 @@ body {
   background: #fffdf7;
   color: #333;
 }
+
 header {
   background: radial-gradient(circle at center, #222 0%, #000 100%);
   color: white;
   padding: 5rem 1rem 3rem;
   text-align: center;
 }
+
 header h1 {
   font-family: 'Playfair Display', serif;
   font-size: 3rem;
   margin-bottom: 0.3rem;
 }
+
 header p {
   font-size: 1.2rem;
   color: #ccc;
 }
+
 nav {
   background: #111;
   text-align: center;
   padding: 1rem;
 }
+
 nav a {
   color: #ccc;
   margin: 0 1.5rem;
   text-decoration: none;
   font-weight: bold;
 }
+
 nav a:hover {
   color: #fff;
 }
+
 .section {
   padding: 3rem 1rem;
   max-width: 1000px;
   margin: auto;
   text-align: center;
 }
+
 .grid {
   display: flex;
   justify-content: center;
@@ -46,15 +54,18 @@ nav a:hover {
   gap: 2rem;
   margin-top: 2rem;
 }
+
 .grid img {
   max-width: 350px;
   border-radius: 12px;
   box-shadow: 0 6px 15px rgba(0,0,0,0.25);
   transition: transform 0.3s ease;
 }
+
 .grid img:hover {
   transform: scale(1.05);
 }
+
 footer {
   background: #111;
   color: white;
